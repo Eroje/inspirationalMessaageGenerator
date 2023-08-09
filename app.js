@@ -1,3 +1,4 @@
+
 const faker = require('faker');
 
 const adjectives = [
@@ -30,5 +31,4 @@ function generateRandomMessage() {
   return message;
 }
 
-const randomMessage = generateRandomMessage();
-console.log(randomMessage);
+module.exports = generateRandomMessage;
