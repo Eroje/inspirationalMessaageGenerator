@@ -31,4 +31,7 @@ function generateRandomMessage() {
   return message;
 }
 
+const randomMessage = generateRandomMessage();
+console.log(randomMessage);
+
 module.exports = generateRandomMessage;
